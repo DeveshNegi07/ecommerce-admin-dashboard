@@ -1,0 +1,22 @@
+.chart-container {
+  overflow-y: auto;
+  padding: 4rem;
+  background-color: #ffffff;
+
+  > h1 {
+    margin: 0 0 5rem 2rem;
+  }
+  > section {
+    width: 80%;
+    margin: 4rem auto;
+    > h2 {
+      margin: 2rem 0;
+      @include heading(2px);
+      text-align: center;
+    }
+    > div {
+      max-width: 25rem;
+      margin: 6rem auto -1rem auto;
+    }
+  }
+}
